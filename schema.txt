@@ -1,0 +1,22 @@
+license
+| license_id            | int(11)      | NO   | PRI | NULL    | auto_increment |
+| license_expiry_date   | datetime     | YES  |     | NULL    |                |
+| hardware_id           | varchar(15)  | NO   | MUL | NULL    |                |
+| service_code          | int(11)      | NO   | MUL | NULL    |                |
+| license_added         | datetime     | YES  |     | NULL    |                |
+| license_changed       | datetime     | YES  |     | NULL    |                |
+| user_id               | varchar(64)  | YES  |     | NULL    |                |
+
+service
+| service_code        | int(11)      | NO   | PRI | NULL    |
+| service_name        | varchar(255) | NO   |     | NULL    |
+| service_description | text         | YES  |     | NULL    |
+
+hardware
+| hardware_id            | varchar(15)  | NO   | PRI | NULL    |       |
+| hardware_serial_number | int(8)       | YES  | MUL | NULL    |       |
+| hardware_platform      | varchar(15)  | YES  |     | NULL    |       |
+| hardware_note          | varchar(300) | YES  |     | NULL    |       |
+| system_added           | datetime     | YES  |     | NULL    |       |
+| system_changed         | datetime     | YES  |     | NULL    |       |
+| user_id                | varchar(15)  | YES  |     | NULL    |       |
