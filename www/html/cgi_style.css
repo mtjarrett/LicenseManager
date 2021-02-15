@@ -1,0 +1,104 @@
+body{
+        background-color:#d7e0ef;
+}
+
+a{
+        color:#820202;
+        text-decoration: none;
+}
+
+a:visited{
+        color:#820202;
+        text-decoration: none;
+}
+
+#systemEditor{
+        width: 600px;
+        padding: 20px;
+        margin-left: 20px;
+        border: 1px solid black;
+        border-radius: 25px;
+        box-shadow: -7px 7px 3px black;
+}
+
+th, td{
+        padding: 5px;
+        text-align: center;
+}
+/*System Table Columns*/
+tr:nth-child(even) {background: #CCC}
+
+#system_table{
+        box-shadow: -7px 7px 3px black;
+}
+
+#tbl-header{
+        background-color: darkgray;
+        border: 1px solid darkgray;
+}
+
+#tbl-content{
+        height:600px;
+  overflow-x:auto;
+  border: 1px solid gray;
+
+}
+
+.system{
+        width: 100px;
+}
+
+.platform{
+        width: 100px;
+}
+
+.added{
+        width: 200px;
+}
+
+.lastEdit{
+        width: 200px;
+}
+
+.editedBy{
+        width: 150px;
+}
+
+.notes{
+        width: 450px;
+        text-align: left;
+}
+
+/*License Table Columns*/
+
+tr:nth-child(even) {background: #CCC}
+
+.prodName{
+        min-width: 250px;
+
+}
+
+.licExp{
+        min-width: 220px;
+}
+
+.licAdded{
+        min-width: 220px;
+}
+
+.licEdited{
+        min-width: 220px;
+}
+
+.licEditedBy{
+        min-width: 150px;
+}
+
+.update{
+        min-width: 150px;;
+}
+
+
+
+
+
